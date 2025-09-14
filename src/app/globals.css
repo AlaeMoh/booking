@@ -1,6 +1,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --mainColor:rgb(0, 0, 63);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,6 +23,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 * {
@@ -39,4 +41,16 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.image{
+  width: 30px;
+}
+
+.navbar{
+background-color: var(--mainColor);
+
+}
+.navbar a{
+  color: white;
 }
