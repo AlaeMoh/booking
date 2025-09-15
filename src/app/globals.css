@@ -43,14 +43,86 @@ a {
   }
 }
 
-.image{
-  width: 30px;
-}
 
+      /* NavBar Items */
 .navbar{
 background-color: var(--mainColor);
+z-index: 5;
 
 }
 .navbar a{
   color: white;
+}
+
+
+/* Hero Section Items */
+.hero{
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-video{
+  width: 100%;
+}
+
+.video-div{
+  opacity: 70%;
+  background-color: #000000;
+  width: 100%;
+  height: 110vh;
+  z-index:2 ;
+  position: absolute;
+  top: 0;
+}
+
+.display{
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 110vh;
+}
+
+/* label */
+.text{
+  position: relative;
+  justify-content: center;
+  top: 150px;
+  color: #ededed;
+}
+
+.text h1{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 50px;
+text-align: center;
+word-spacing: 13px;
+
+}
+
+/* Selection Part */
+
+.selection{
+height:150px ;
+width: 80%;
+background-color: #ededed;
+position: absolute;
+justify-content: center;
+top: 280px;
+border-radius: 15px;
+display: flex;
+gap: 25px;
+}
+
+.head{
+  font-size: 30px;
+  font-weight: 900;
+  
+}
+
+.input{
+  border: none;
+  
+
 }

@@ -10,7 +10,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 export default function navbar() {
     
   return (
-        <Navbar  className="navbar mb-3">
+        <Navbar  className="navbar">
           <Container fluid>
             <Navbar.Brand href="#"><span className='text-danger'>Tripi</span><span>Booking</span></Navbar.Brand>
             <Navbar.Toggle  />
